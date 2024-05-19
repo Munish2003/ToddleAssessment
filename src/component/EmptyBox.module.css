@@ -1,0 +1,9 @@
+.emptyimg{
+  width: 560px;
+  height: 264px;
+  
+}
+.container{
+  display: flex;
+  justify-content: center;
+}

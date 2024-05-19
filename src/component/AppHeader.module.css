@@ -1,0 +1,72 @@
+.heading{
+  font-size: x-large;
+  margin-left: 100px;
+}
+
+.headerContainer{
+  margin-top: 20px;
+  margin-bottom: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+.button{
+  position: relative;
+  padding: 8px 10px;
+  border-radius: 7px;
+  border: 1px solid white;
+  cursor: pointer;
+  background-color: rgb(188, 50, 50);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+  margin-right: 100px;
+  
+}
+.button span{
+  font-size: 19px;
+  padding: 0px 7px;
+}
+
+.addButton .options{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  
+  top:60px;
+  right: 108px;
+  background-color: white;
+  width: 292px;
+  height: 122px;
+  margin-top: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding-top: 8px;
+  
+  overflow: hidden;
+}
+
+.addButton .options button{
+  height: 90px;
+  min-width:90px;
+  cursor: pointer;
+  border: 0px solid black;
+  background: none;
+  text-align: left;
+  
+}
+.options button:hover{
+  background-color: rgba(215, 209, 209, 0.38);
+}
+.options button{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.options button span{
+  font-size: medium;
+  margin: 0px 10px;
+}
+
+/* //main   */
